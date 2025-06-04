@@ -4,7 +4,7 @@ import StarterKit from '@tiptap/starter-kit';
 import Underline from '@tiptap/extension-underline';
 import Image from '@tiptap/extension-image';
 import Link from '@tiptap/extension-link';
-import { Toolbar }  from '@/components/Toolbar';
+import { Toolbar } from '@/components/Toolbar';
 import { OutputView } from '@/components/OutputView';
 import type { EditorProps } from '@/types/types';
 import DropCursor from '@tiptap/extension-dropcursor';
@@ -113,7 +113,7 @@ export const Editor: React.FC<EditorProps> = ({ darkMode, onContentChange }) => 
         <style>{`
           .ProseMirror {
             padding: 1rem;
-            min-height: 300px;
+            min-height: 700px;
             outline: none;
             overflow-y: auto;
           }

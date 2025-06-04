@@ -34,7 +34,7 @@ function App() {
         />
       </main>
 
-      <footer className={`py-4 px-6 border-t text-center text-sm transition-colors duration-300 ${darkMode ? 'border-slate-700 text-slate-400' : 'border-gray-200 text-slate-500'}`}>
+      <footer className={`py-4 px-6 text-center text-sm transition-colors duration-300 ${darkMode ? 'text-slate-400' : ' text-slate-500'}`}>
         Built with React, Tiptap, and TailwindCSS for Cloudairy second round interview.
       </footer>
     </div>
