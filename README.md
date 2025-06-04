@@ -26,11 +26,11 @@
   - Dropcursor and basic formatting toolbar
 - Theme switching (light/dark mode)
 - Output preview component
-- Path aliasing with `@/` for imports from `src`
 
 ## Assumptions & Libraries Used
 - Project bootstrapped with [Vite](https://vitejs.dev/) and [React](https://react.dev/)
 - TypeScript for type safety
+- Path aliasing with `@/` for imports from `src`
 - [Tiptap](https://tiptap.dev/) for the editor core and extensions:
   - `@tiptap/react`, `@tiptap/pm`, `@tiptap/starter-kit`, `@tiptap/extension-underline`, `@tiptap/extension-image`, `@tiptap/extension-link`, `@tiptap/extension-dropcursor`
 - [lucide-react](https://lucide.dev/) for icons
