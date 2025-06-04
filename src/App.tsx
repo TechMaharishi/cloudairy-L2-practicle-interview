@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Editor from '@/components/Editor';
+import { Editor } from '@/components/Editor';
 import { ThemeSwitcher } from './components/ThemeSwitcher';
 import type { EditorContent } from '@/types/types';
 
